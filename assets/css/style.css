@@ -1,7 +1,6 @@
 * {
     outline: none !important;
     border: none !important;
-    overflow: hidden !important;
 }
 
 .bodi {
@@ -24,6 +23,14 @@
     background-clip: border-box;
     border: 0px solid rgba(0, 0, 0, 0) !important;
     border-radius: 10px !important;
+    margin-top: 50%;
+}
+
+.card img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 10px 10px 0 0; /* Menyesuaikan sudut bulatan hanya pada sudut atas gambar */
 }
 
 .judul {
